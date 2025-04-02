@@ -1,0 +1,30 @@
+nvidia@nvidia-jetson:~/futurelab_robot/TEST$ sudo python3 main.py
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+nvbufsurftransform: Could not get EGL display connection
+GST_ARGUS: Creating output stream
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+(Argus) Error NotSupported: Failed to initialize EGLDisplay (in src/eglutils/EGLUtils.cpp, function getDefaultDisplay(), line 77)
+(Argus) Error BadParameter:  (propagating from src/eglstream/FrameConsumerImpl.cpp, function initialize(), line 93)
+(Argus) Error BadParameter:  (propagating from src/eglstream/FrameConsumerImpl.cpp, function create(), line 44)
+Error generated. /dvs/git/dirty/git-master_linux/multimedia/nvgstreamer/gst-nvarguscamera/gstnvarguscamerasrc.cpp, threadInitialize:316 Failed to create FrameConsumer
+Error generated. /dvs/git/dirty/git-master_linux/multimedia/nvgstreamer/gst-nvarguscamera/gstnvarguscamerasrc.cpp, threadFunction:237 (propagating)
+Error generated. /dvs/git/dirty/git-master_linux/multimedia/nvgstreamer/gst-nvarguscamera/gstnvarguscamerasrc.cpp, waitRunning:199 Invalid thread state 3
+Error generated. /dvs/git/dirty/git-master_linux/multimedia/nvgstreamer/gst-nvarguscamera/gstnvarguscamerasrc.cpp, execute:847 (propagating)
+[ WARN:0@0,514] global cap_gstreamer.cpp:1777 open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+Camera opened successfully
+Authorization required, but no authorization protocol specified
+Traceback (most recent call last):
+  File "/home/nvidia/futurelab_robot/TEST/main.py", line 136, in <module>
+    simple_camera_display()
+  File "/home/nvidia/futurelab_robot/TEST/main.py", line 106, in simple_camera_display
+    cv2.namedWindow("Camera Feed", cv2.WINDOW_NORMAL)
+cv2.error: OpenCV(4.9.0) /tmp/build_opencv/opencv/modules/highgui/src/window_gtk.cpp:638: error: (-2:Unspecified error) Can't initialize GTK backend in function 'cvInitSystem'
+
